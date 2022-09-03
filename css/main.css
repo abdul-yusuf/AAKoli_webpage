@@ -5338,7 +5338,8 @@ a.text-black:hover {
 
 .welcome .inner-wrapper {
     position: relative;
-    z-index: 3
+    z-index: 3;
+    margin-top: 45vh;
 }
 
 .welcome .inner-wrapper>p {
@@ -5418,18 +5419,6 @@ a.text-black:hover {
     .welcome:after {
         right: -17%
     }
-}
-
-.shard {
-    will-change: transform;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 40px;
-    z-index: 1;
-    width: 280px;
-    animation: float 7s ease-in-out infinite;
-    z-index: 2
 }
 
 @keyframes float {

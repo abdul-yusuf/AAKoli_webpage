@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AA-Koli | Branding and Finishing</title>
+    <link rel="icon" href="img/Untitled.png" type="image/x-icon"><!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- CSS --></head>
+<body>
+    <header class="sticky-header active" id="sticky-header">
+        <div class="container">
+            <div class="row">
+                <a href="" class="logo"><img src="img/Untitled.png" alt="AA-Koli" class="w-100"></a>
+                <div class="ml-auto actions-wrapper">
+                    <div class="header-actions">
+                        <a href="" class="btn nav-button">
+                            <!-- <i class="fa fa-server" aria-hidden="true"></i> -->
+                            Our Services
+                        </a>
+                        <a href="/about.html    " class="btn nav-button">
+                            <!-- <i class="fa fa-server" aria-hidden="true"></i> -->
+                            About Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container top">
+        <h2>Our Services</h2>
+        <div class="bbtn-container">
+            <button class="bbtn active all" onclick="$.fn.groupAll();">Show all</button>
+            <button class="bbtn" onclick="$.fn.groupAddClass($('.filtering'),'.bags');">General Packaging</button>
+            <button class="bbtn" onclick="$.fn.groupAddClass($('.filtering'),'.printing');">General Printing</button>
+            <button class="bbtn" onclick="$.fn.groupAddClass($('.filtering'),'');">Corprate Sourvenirs</button>
+            <button class="bbtn" onclick="$.fn.groupAddClass($('.filtering'),'');">Corprate Gifts</button>
+            <button class="bbtn" onclick="$.fn.groupAddClass($('.filtering'),'.work-wears');">Work Wears</button>
+            <button class="bbtn" onclick="$.fn.groupAddClass($('.filtering'),'');">Sublimation and Printing</button>
+            <button class="bbtn" onclick="$.fn.groupAddClass($('.filtering'),'');">Monnogramy and Embroidery</button>
+            <button class="bbtn" onclick="$.fn.groupAddClass($('.filtering'),'');">Publishing</button>
+            <!-- <button class="bbtn" onclick="$.fn.groupAddClass($('.filtering'),'');"></button>
+            <button class="bbtn" onclick="$.fn.groupAddClass($('.filtering'),'');"></button> -->
+        </div>
+    </div>
+    <!-- services gallery -->
+    <div class="container" >
+        <div class="row g-lg-4 g-4 px-sm-4">
+            <div class="col-md-4 filtering printing">
+                <div class="card">
+                    <img src="img/Untitled.png" class="card-img-top" alt="..." />
+                </div>
+            </div>
+            <div class="col-md-4 filtering work-wears">
+                <div class="card">
+                    <img src="img/Untitled.png" class="card-img-top" alt="..." />
+                </div>
+            </div>
+            <div class="col-md-4 filtering bags">
+                <div class="card">
+                    <img src="img/Untitled.png" class="card-img-top" alt="..." />
+                </div>
+            </div>
+            <div class="col-md-4 filtering bags">
+                <div class="card">
+                    <img src="img/Untitled.png" class="card-img-top" alt="..." />
+                </div>
+            </div>
+            <div class="col-md-4 filtering work-wears">
+                <div class="card">
+                    <img src="img/Untitled.png" class="card-img-top" alt="..." />
+                </div>
+            </div>
+            <div class="col-md-4 filtering">
+                <div class="card">
+                    <img src="img/Untitled.png" class="card-img-top" alt="..." />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services gallery -->
+    <!-- footer -->
+    <div class="container-fluid footer text-center align-items-center">
+        <div class="container pt-3 text-light col-lg-6">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Massage</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-outline-light" type="button">Submit</button>
+              </div>
+              <div class="g-5 pt-5 pb-3">
+                <i class="fa-brands fa-twitter fa-2xl text-light"></i>
+                <i class="fa fa-instagram text-light fa-2xl" aria-hidden="true"></i>
+                <i class="fa fa-facebook-square text-light fa-2xl" aria-hidden="true"></i>
+            </div>
+            <div class="container text-center pt-1">
+                <p>A.A KOLI © 2022</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <!-- Depedancies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="https://kit.fontawesome.com/b58f5ed808.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <!-- Depedancies -->
+    <!-- Scripts -->
+    <script src="js/custom.js"></script>
+    <!-- Scripts -->
+</body>
+</html>
