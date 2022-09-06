@@ -31,6 +31,11 @@ header{
       margin-right: auto;
       margin-bottom: 5px
   }
+  .sticky-header .header-actions{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width:576px) {
@@ -167,8 +172,8 @@ header{
   width: 100%;
   text-align: center;
   font-size: 28px;
-  background-color:rgb(149, 148, 155);
-  opacity: .9;
+  background-color:#4c2571;
+  opacity: .7;
   height: fit-content;
   color: aliceblue;
   border-radius: 5px;
@@ -263,7 +268,11 @@ header{
         padding: auto;
     }
     .inner-wrapper {
-        margin-top: 45vh!important;
+        margin-top: 70vh!important;
+        margin-bottom: auto;
+    }
+    .values{
+      margin-top: auto;
     }
 }
 
@@ -304,6 +313,11 @@ header{
   z-index: 3;
 }
 
+@media (max-width:590px) {
+  .our-services h3{
+    padding-bottom: 15%;
+  }  
+}
 .footer{
   background-color: #4c2571;
   height: 45vh;
