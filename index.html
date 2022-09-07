@@ -11,13 +11,17 @@
     <!-- CSS -->
 </head>
 <body>
-    <header class="sticky-header active" id="sticky-header">
+    <div class="loader">
+        <img src="img/Untitled.png" alt="Shard" class="shard-pp" />
+        <div class="page-loader"></div>
+    </div>
+    <header class="sticky-header" id="sticky-header">
         <div class="container">
             <div class="row">
                 <a href="" class="logo"><img src="img/Untitled.png" alt="AA-Koli" class="w-100"></a>
                 <div class="ml-auto actions-wrapper">
                     <div class="header-actions">
-                        <a href="" class="btn nav-button">
+                        <a href="/our_service.html" class="btn nav-button">
                             <!-- <i class="fa fa-server" aria-hidden="true"></i> -->
                             Our Services
                         </a>
@@ -37,9 +41,19 @@
                 <img src="img/text.png" alt="AA-Koli Prints" height="20%">
                 <p class="slide-in">Branding And Packaging Company</p>
                 <div class="container values">
-                    <h3>Mission</h3>
-                    <p>Our mission is to provide relaible, affordable and accomodative products and services</p>
-                    <h3>Vision</h3>
+                    <h3 class="head1 mb-4"><b>Mission</b></h3>
+                    <p class="animate-typing"
+                    data-type-speed="200"
+                    data-type-delay="200"
+                    data-remove-speed="50"
+                    data-remove-delay="1000"
+                    data-animate-loop="true"
+                    style="font-size: 18px;">
+                    Our mission is to provide|
+                    relaible,|
+                    affordable|
+                    and accomodative products and services</p>
+                    <h3 class="head2 mb-4">Vision</h3>
                     <p>Our vission is to make your brand speaks for itself</p>
                 </div>
             </div>
@@ -142,6 +156,7 @@
     <!-- Depedancies -->
     <!-- Scripts -->
     <script src="js/custom.js"></script>
+    <script src="js/type.js"></script>
     <!-- Scripts -->
 </body>
 </html>
